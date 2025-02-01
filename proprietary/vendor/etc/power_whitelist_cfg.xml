@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WHITELIST>
+    <PerfService>
+        <Package name="com.imangi.templerun2">
+            <Activity name="Common">
+                <PERF_RES_CPUCORE_MIN_CLUSTER_0 Param1="3"/>
+            </Activity>
+        </Package>
+        <Package name="com.andromeda.androbench2">
+            <Activity name="Common">
+                <PERF_RES_CPUFREQ_MIN_CLUSTER_0 Param1="3000000"/>
+            </Activity>
+        </Package>
+        <Package name="com.antutu.ABenchMark">
+            <Activity name="Common">
+                <PERF_RES_DRAM_VCORE_MIN Param1="1"/>
+                <PERF_RES_CPUCORE_MIN_CLUSTER_0 Param1="4"/>
+            </Activity>
+        </Package>
+        <Package name="com.antutu.benchmark.full">
+            <Activity name="Common">
+                <PERF_RES_DRAM_VCORE_MIN Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="android.media.cts">
+            <Activity name="Common">
+                <PERF_RES_CPUCORE_MIN_CLUSTER_0 Param1="4"/>
+            </Activity>
+        </Package>
+        <Package name="com.android.settings">
+            <Activity name="com.android.settings.SubSettings">
+                <PERF_RES_DRAM_VCORE_MIN Param1="0"/>
+            </Activity>
+        </Package>
+        <Package name="com.glbenchmark.glbenchmark27.corporate">
+            <Activity name="Common">
+                <PERF_RES_DRAM_VCORE_MIN Param1="1"/>
+            </Activity>
+        </Package>
+        <Package name="com.primatelabs.geekbench">
+            <Activity name="Common">
+                <PERF_RES_DRAM_VCORE_MIN Param1="1"/>
+            </Activity>
+        </Package>
+    </PerfService>
+</WHITELIST>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByEfPnn version="1">
+<virtualSpnOverride mccmncpnn="26203Ortel D" name="Ortel D"/>
+<virtualSpnOverride mccmncpnn="23430EE" name="EE"/>
+<virtualSpnOverride mccmncpnn="51503SUN" name="SUN"/>
+<!--[FRT-7454] BDC yuxin add for [Telenet BE]Incorrect SIM name shown when roaming IMSI used.begin -->
+<virtualSpnOverride mccmncpnn="20601Telenet" name="Telenet"/>
+<!--[FRT-7454] BDC yuxin add for [Telenet BE]Incorrect SIM name shown when roaming IMSI used.end -->
+<!--[FRT-7687] -->
+<virtualSpnOverride mccmncpnn="20601NRJ Mobile" name="NRJ Mobile"/>
+<!--[FRT-7687] -->
+<!--[CO2-3035] -->
+<virtualSpnOverride mccmncpnn="405874Jio 4G" name="Jio 4G"/>
+<!--[CO2-3035] -->
+<!-- [NCP-12981] BDC zhangwp add for VIRGIN CA begin -->
+<virtualSpnOverride mccmncpnn="302610VIRGIN" name="VIRGIN"/>
+<!-- [NCP-12981] BDC zhangwp add for VIRGIN CA end -->
+<!-- [NCP-13347] Kerry begin -->
+<virtualSpnOverride mccmncpnn="23430BT" name="BT"/>
+<!-- [NCP-13347] Kerry end -->
+<!-- [NCP-14385] IsaacHHLiu begin -->
+<virtualSpnOverride mccmncpnn="50503Vodafone AU" name="Vodafone AU"/>
+<!-- [NCP-14385] IsaacHHLiu end -->
+</virtualSpnOverridesByEfPnn>
