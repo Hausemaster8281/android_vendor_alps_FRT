@@ -1,0 +1,266 @@
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.gpu@1.0",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.gpu@1.0.so"],
+    shared_libs: ["libc", "libm"], // Add other dependencies if needed
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "libstagefright_wfd_mtk",
+    srcs: ["proprietary/lib/libstagefright_wfd_mtk.so"],
+    shared_libs: ["libc", "libm"],
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "libGLES_android",
+    srcs: ["proprietary/lib/egl/libGLES_android.so"],
+    shared_libs: ["libc", "libm"],
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mtkpower@1.0",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.mtkpower@1.0.so"],
+    shared_libs: ["libc", "libm"],
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.0",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.pq@2.0.so"],
+    shared_libs: ["libc", "libm"],
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.0",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.mms@1.0.so"],
+    shared_libs: ["libc", "libm"], // Add additional shared library dependencies if required
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.2",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.mms@1.2.so"],
+    shared_libs: ["libc", "libm"], // Add any additional shared libraries if required
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.1",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.pq@2.1.so"],
+    shared_libs: ["libc", "libm"], // Add other shared library dependencies if required
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.1",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.mms@1.1.so"],
+    shared_libs: ["libc", "libm"], // Add other dependencies if required
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mms@1.3",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.mms@1.3.so"],
+    shared_libs: ["libc", "libm"], // Add other dependencies if required
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.2",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.pq@2.2.so"],
+    shared_libs: ["libc", "libm"], // Add additional libraries if necessary
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.videotelephony@1.0",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so"],
+    shared_libs: ["libc", "libm"], // Add additional shared library dependencies if required
+    stl: "none",
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_binary {
+    name: "InitCDA",
+    srcs: ["proprietary/vendor/bin/InitCDA"],
+    installable: true,
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_binary {
+    name: "aee_archivev",
+    srcs: ["proprietary/vendor/bin/aee_archivev"],
+    installable: true,
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.pq@2.3",
+    srcs: ["proprietary/lib/vendor.mediatek.hardware.pq@2.3.so"],
+    installable: true,
+    sanitize: {
+        never: true,
+    },
+    target: {
+        android_arm: {
+            enabled: true,
+        },
+    },
+}
+cc_prebuilt_binary {
+    name: "aeev",
+    srcs: ["proprietary/vendor/bin/aeev"],
+    installable: true,
+}
+cc_prebuilt_binary {
+    name: "aee_aedv",
+    srcs: ["proprietary/vendor/bin/aee_aedv"],
+    installable: true,
+}
+cc_prebuilt_binary {
+    name: "aee_dumpstatev",
+    srcs: ["proprietary/vendor/bin/aee_dumpstatev"],
+    installable: true,
+}
+cc_prebuilt_binary {
+    name: "ccci_mdinit",
+    srcs: ["proprietary/vendor/bin/ccci_mdinit"],
+    installable: true,
+    strip: {
+        keep_symbols: false,
+    },
+}
+
+cc_prebuilt_binary {
+    name: "audiocmdservice_atci",
+    srcs: ["proprietary/vendor/bin/audiocmdservice_atci"],
+    installable: true,
+    strip: {
+        keep_symbols: false,
+    },
+}
+
+cc_prebuilt_binary {
+    name: "autobt",
+    srcs: ["proprietary/vendor/bin/autobt"],
+    installable: true,
+    strip: {
+        keep_symbols: false,
+    },
+}
+
+cc_prebuilt_binary {
+    name: "atcid",
+    srcs: ["proprietary/vendor/bin/atcid"],
+    installable: true,
+    strip: {
+        keep_symbols: false,
+    },
+}
+
+cc_prebuilt_binary {
+    name: "ccci_fsd",
+    srcs: ["proprietary/vendor/bin/ccci_fsd"],
+    installable: true,
+    strip: {
+        keep_symbols: false,
+    },
+}
