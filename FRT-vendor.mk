@@ -747,20 +747,20 @@ PRODUCT_COPY_FILES += \
     vendor/alps/FRT/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
     vendor/alps/FRT/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
-#ODM_MANIFEST_FILES += \
-#    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_dsds.xml \
-#    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml \
-#    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_dsds_se.xml \
-#    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_dsds_se_ese.xml \
-#    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_dsds_se.xml \
-#    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_dsds_se_ese.xml \
-#    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_qsqs.xml \
-#    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_ss.xml \
-#    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_ss_se.xml \
-#    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_ss_se_ese.xml \
-#    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_tsts.xml \
-#    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml \
-#    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_ss.xml \
-#    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_ss_se.xml \
-#    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_ss_se_ese.xml \
-#    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml
+ODM_MANIFEST_FILES += \
+    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_dsds.xml \
+    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml \
+    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_dsds_se.xml \
+    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_dsds_se_ese.xml \
+    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_dsds_se.xml \
+    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_dsds_se_ese.xml \
+    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_ss.xml \
+    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_ss_se.xml \
+    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_ss_se_ese.xml \
+    vendor/alps/FRT/proprietary/odm/etc/vintf/manifest_tsts.xml \
+    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml \
+    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_ss.xml \
+    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_ss_se.xml \
+    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_ss_se_ese.xml \
+    vendor/alps/FRT/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml
