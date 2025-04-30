@@ -264,3 +264,20 @@ cc_prebuilt_binary {
         keep_symbols: false,
     },
 }
+prebuilt_hidl_interfaces {
+    name: "vendor_mtk_hidl_interfaces",
+    interfaces: [
+        "vendor.mediatek.hardware.gpu@1.0::IGpu",
+        "vendor.mediatek.hardware.mtkpower@1.0::IMtkPower",
+        "vendor.mediatek.hardware.pq@2.0::IPQ",
+        "vendor.mediatek.hardware.pq@2.1::IPQ",
+        "vendor.mediatek.hardware.pq@2.2::IPQ",
+        "vendor.mediatek.hardware.pq@2.3::IPQ",
+        "vendor.mediatek.hardware.mms@1.0::IMMS",
+        "vendor.mediatek.hardware.mms@1.1::IMMS",
+        "vendor.mediatek.hardware.mms@1.2::IMMS",
+        "vendor.mediatek.hardware.mms@1.3::IMMS",
+        "vendor.mediatek.hardware.videotelephony@1.0::IVideoTelephony",
+        "vendor.somc.hardware.modemswitcher@1.0::IModemSwitcher",
+    ],
+}
